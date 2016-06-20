@@ -17,7 +17,7 @@ object LisasWorkbook {
     val pages = problems.map(page(_, perPage)).sum
     
     val book = (0 to problems.size -1).flatMap(i =>
-       (1 to problems(i)).toList.sliding(3,3).toList
+       (1 to problems(i)).toList.sliding(perPage,perPage).toList
      ).toList
   
      (1 to pages).count(i => book(i-1).contains(i)) 
