@@ -11,41 +11,41 @@ class TheGridSearchTest extends FunSuite with BeforeAndAfter {
   import com.negrisoli.algorithms.implementation.TheGridSearch._
   
   test("indexOfAll at middle") {
-    assert(indexOffAll(Array(0, 1, 2, 3), Array(1,2)) === Array(1))
+    assert(indexOffAll("0123", "12") === List(1))
   }
   
   test("indexOfAll at begin") {
-    assert(indexOffAll(Array(1, 2, 3), Array(1,2)) === Array(0))
+    assert(indexOffAll("123", "12") === List(0))
   }
   
   test("indexOfAll at end") {
-    assert(indexOffAll(Array(0, 1, 2), Array(1,2)) === Array(1))
+    assert(indexOffAll("012", "12") === List(1))
   }
   
   test("indexOfAll not match") {
-    assert(indexOffAll(Array(0, 1, 2, 3), Array(5,2)) === Array())
+    assert(indexOffAll("0123", "52") === List())
   }
   
   test("indexOfAll repeat begin") {
-    assert(indexOffAll(Array(1, 1, 2, 3), Array(1,2)) === Array(1))
+    assert(indexOffAll("1123", "12") === List(1))
   }
   
   test("indexOfAll two matches") {
-    assert(indexOffAll(Array(0, 1, 2, 1, 2, 5), Array(1,2)) === Array(1, 3))
+    assert(indexOffAll("012125", "12") === List(1, 3))
   }
   
   
   trait MatrixTest {
-    val mat0: Matrix = Array(Array(0, 1, 2), Array(3, 4, 5), Array(6, 7, 8))
-    val pat0: Matrix = Array(Array(1, 2), Array(4, 5))
-    val pat0_0: Matrix = Array(Array(0, 1), Array(4, 5))
-    val pat0_1: Matrix = Array(Array(4, 5), Array(7, 8))
-    val mat1: Matrix = Array(Array(9, 9, 9), Array(1, 2, 3), Array(5, 5, 5))
-    val pat1: Matrix = Array(Array(9, 9), Array(1, 2), Array(5, 5))
+    val mat0: Matrix = List("012", "345", "678")
+    val pat0: Matrix = List("12", "45")
+    val pat0_0: Matrix = List("01", "45")
+    val pat0_1: Matrix = List("45", "78")
+    val mat1: Matrix = List("999", "123", "555")
+    val pat1: Matrix = List("99", "12", "55")
     
-    val mat2: Matrix = Array(Array(1, 2, 3, 4, 1, 2), Array(5, 6, 1, 2, 1, 2),
-        Array(1, 2, 3, 6, 3, 4), Array(7, 8, 1, 2, 8, 8))
-    val pat2: Matrix = Array(Array(1, 2), Array(3, 4))
+    val mat2: Matrix = List("123412", "561212",
+        "123634", "781288")
+    val pat2: Matrix = List("12", "34")
     
   }
   

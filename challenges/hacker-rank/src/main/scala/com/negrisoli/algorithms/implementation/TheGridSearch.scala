@@ -1,33 +1,29 @@
 package com.negrisoli.algorithms.implementation
 
+import scala.collection.mutable.ListBuffer
+
 object TheGridSearch {
   
-  type Row = Array[Int]
-  type Matrix = Array[Row]
+  type Row = String
+  type Matrix = List[String]
   
   def readMatrix(rows: Int, cols: Int, p:() => String ): Matrix = {
     p() // clean \n
-    Array.range(0, rows).map(r => lineToArray(p()))
+    List.range(0, rows).map(r => p())
   }
   
-  def lineToArray(s:String): Row = {
-    s.sliding(1, 1).map(_.toInt).toArray
-  }
-  
-  def indexOffAll(line:Row, pattern:Row) = {
-    val arr = scala.collection.mutable.ArrayBuffer.empty[Int]
-    
-    def iter(acc:Array[Int], pos: Int, patPos: Int): scala.collection.mutable.ArrayBuffer[Int] =
-      if (line.size - pos < pattern.size - patPos) arr
-      else if (patPos >= pattern.size) arr += (pos - pattern.size) 
-      else if (line(pos) == pattern(patPos)) {
-        iter(acc, pos + 1, patPos + 1)
-        iter(acc, pos + 1, patPos)
-        arr
+  def indexOffAll(line:Row, pattern:Row): List[Int] = {
+    val buf = new ListBuffer[Int]
+    var i = 0
+    while (i >= 0) {
+      i = line.indexOf(pattern, i)
+      if (i != -1) {
+        buf += i
+        i += 1
       }
-      else iter(acc, pos + 1, 0)
-   
-    iter(Array[Int](), 0, 0).toArray
+    }
+    
+    buf.toList
   }
   
   def matchPattern(matrix:Matrix, pattern:Matrix):Boolean = {
@@ -35,8 +31,7 @@ object TheGridSearch {
       if (pRow >= pattern.size) return true
       else if (mRow >= matrix.size) return false
       
-      val lineMatch = indexOffAll(matrix(mRow), pattern(pRow))
-      if (lineMatch.contains(cIndex)) isPatternAt(mRow + 1, pRow + 1, cIndex)
+      if (matrix(mRow).slice(cIndex, cIndex + pattern(pRow).size) == pattern(pRow)) isPatternAt(mRow + 1, pRow + 1, cIndex)
       else false
     }
     
