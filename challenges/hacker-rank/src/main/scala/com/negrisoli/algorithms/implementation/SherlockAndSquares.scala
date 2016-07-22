@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/sherlock-and-squares */
 package com.negrisoli.algorithms.implementation
 
 object SherlockAndSquares {

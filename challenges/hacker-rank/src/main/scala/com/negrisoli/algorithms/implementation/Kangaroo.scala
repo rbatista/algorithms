@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/kangaroo */
 package com.negrisoli.algorithms.implementation
 
 object Kangaroo {

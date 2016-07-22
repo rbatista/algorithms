@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/save-the-prisoner */
 package com.negrisoli.algorithms.warmup
 
 object SaveThePrisoner {

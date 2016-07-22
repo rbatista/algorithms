@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/library-fine */
 package com.negrisoli.algorithms.implementation
 
 object LibraryFine {

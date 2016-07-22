@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/chocolate-feast */
 package com.negrisoli.algorithms.implementation
 
 object ChocolateFeast {

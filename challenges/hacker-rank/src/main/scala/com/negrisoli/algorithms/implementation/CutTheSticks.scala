@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/cut-the-sticks */
 package com.negrisoli.algorithms.implementation
 
 object CutTheSticks {

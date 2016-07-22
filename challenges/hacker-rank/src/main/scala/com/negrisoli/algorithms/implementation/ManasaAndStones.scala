@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/manasa-and-stones */
 package com.negrisoli.algorithms.implementation
 
 object ManasaAndStones {

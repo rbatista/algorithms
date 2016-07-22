@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/equal-stacks */
 package com.negrisoli.algorithms.implementation
 
 object EqualStacks {

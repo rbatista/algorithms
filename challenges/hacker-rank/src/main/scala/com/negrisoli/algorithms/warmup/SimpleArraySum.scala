@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/simple-array-sum */
 package com.negrisoli.algorithms.warmup
 
 object SimpleArraySum {

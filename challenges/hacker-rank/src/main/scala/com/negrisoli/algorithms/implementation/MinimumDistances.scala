@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/minimum-distances */
 package com.negrisoli.algorithms.implementation
 
 object MinimumDistances {

@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/diagonal-difference */
 package com.negrisoli.algorithms.warmup
 
 object DiagonalDifference {

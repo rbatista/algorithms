@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/acm-icpc-team */
 package com.negrisoli.algorithms.implementation
 
 import java.math.BigInteger
