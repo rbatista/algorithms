@@ -6,7 +6,7 @@ object JumpingInTheClouds {
   def main(args: Array[String]): Unit = {
     val sc = new java.util.Scanner(System.in)
     val n = sc.nextInt
-    val clouds = (1 to n) map (i => sc.nextInt) toList
+    val clouds = ((1 to n) map (i => sc.nextInt)).toList
     
     println(min(clouds))
   }

@@ -5,8 +5,8 @@ object JumpingInTheCloudsRevisited {
   
   def main(args: Array[String]): Unit = {
     val sc = new java.util.Scanner(System.in)
-    val List(n, k) = (0 to 1) map (i => sc.nextInt) toList
-    val clouds = (0 to n-1) map (i => sc.nextInt) toList
+    val List(n, k) = ((0 to 1) map (i => sc.nextInt)).toList
+    val clouds = ((0 to n-1) map (i => sc.nextInt)).toList
     
     println(calcEnergy(k, clouds))
   }
