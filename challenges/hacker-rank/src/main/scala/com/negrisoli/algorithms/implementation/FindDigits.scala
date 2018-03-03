@@ -1,3 +1,6 @@
+/* https://www.hackerrank.com/challenges/find-digits */
+package com.negrisoli.algorithms.implementation;
+
 object FindDigits {
 
     def main(args:Array[String]) {

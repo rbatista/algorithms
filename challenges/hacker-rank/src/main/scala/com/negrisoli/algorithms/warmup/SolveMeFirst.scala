@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/solve-me-first */
 package com.negrisoli.algorithms.warmup
 
 import io.Source.stdin

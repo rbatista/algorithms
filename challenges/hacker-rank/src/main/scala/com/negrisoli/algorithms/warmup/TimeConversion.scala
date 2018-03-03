@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/time-conversion/ */
 package com.negrisoli.algorithms.warmup
 
 object TimeConversion {

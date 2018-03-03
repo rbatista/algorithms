@@ -16,6 +16,7 @@ src_managed/
 project/boot/
 project/plugins/project/
 .cache-main
+.cache-tests
 
 # Scala-IDE specific
 .scala_dependencies
@@ -86,3 +87,6 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+######
+src/main/scala/com/negrisoli/algorithms/worksheet.sc

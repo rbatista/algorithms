@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/angry-professor */
 package com.negrisoli.algorithms.implementation
 
 object AngryProfessor {

@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/sherlock-and-the-beast */
 package com.negrisoli.algorithms.implementation
 
 object SherlockandTheBeast {

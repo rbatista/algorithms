@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/the-grid-search */
 package com.negrisoli.algorithms.implementation
 
 import scala.collection.mutable.ListBuffer

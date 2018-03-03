@@ -1,3 +1,4 @@
+/* https://www.hackerrank.com/challenges/plus-minus */
 package com.negrisoli.algorithms.warmup
 
 object PlusMinus {
