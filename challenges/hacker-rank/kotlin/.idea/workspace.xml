@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a84a5577-2da5-4fea-adff-372a0f257732" name="Default Changelist" comment="" />
+    <list default="true" id="a84a5577-2da5-4fea-adff-372a0f257732" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/MinimumSwaps2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/ArrayLeftRotation.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
               <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/MinimumSwaps2.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/CountingValleys.kt" />
         <option value="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/ArrayLeftRotation.kt" />
+        <option value="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/MinimumSwaps2.kt" />
       </list>
     </option>
   </component>
@@ -110,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt">
+  <component name="RunManager" selected="Kotlin.com.raphaelnegrisoli.hackerrank.MinimumSwaps2Kt">
     <configuration name="com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin" />
       <option name="VM_PARAMETERS" />
@@ -137,8 +153,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.raphaelnegrisoli.hackerrank.MinimumSwaps2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.raphaelnegrisoli.hackerrank.MinimumSwaps2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.raphaelnegrisoli.hackerrank.MinimumSwaps2Kt" />
         <item itemvalue="Kotlin.com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt" />
         <item itemvalue="Kotlin.com.raphaelnegrisoli.hackerrank.CountingValleysKt" />
       </list>
@@ -151,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547470121305</updated>
-      <workItem from="1547470124748" duration="5450000" />
+      <workItem from="1547470124748" duration="13402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5450000" />
+    <option name="totallyTimeSpent" value="13402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1024" extended-state="6" />
@@ -212,6 +242,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/MinimumSwaps2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
