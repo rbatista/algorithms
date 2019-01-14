@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a84a5577-2da5-4fea-adff-372a0f257732" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/plugins.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/datastructures/Array2D.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/AcmIcpcTeam.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/AngryProfessor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/BeautifulTriplets.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/BetweenTwoSets.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/BiggerIsGreater.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/BirthdayCakeCandles.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/CaesarCipher.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/CavityMap.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/ChocolateFeast.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/CutTheSticks.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/DivisibleSumPairs.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/EqualStacks.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/FairRations.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/FindDigits.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/FlatlandSpaceStations.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/JumpingInTheClouds.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/JumpingInTheCloudsRevisited.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/Kangaroo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/LibraryFine.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/LisasWorkbook.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/ManasaAndStones.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/MinimumDistances.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/ModifiedKaprekarNumbers.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/NonDivisibleSubset.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/ServiceLane.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/SherlockAndSquares.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/SherlockandTheBeast.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/TaumAndBday.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/TheGridSearch.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/TheHurdleRace.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/implementation/UtopianTree.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/strings/FunnyString.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/AVeryBigSum.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/CircularArrayRotation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/CompareTheTriplets.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/DiagonalDifference.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/PlusMinus.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/SaveThePrisoner.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/SimpleArraySum.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/SolveMeFirst.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/Staircase.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/algorithms/warmup/TimeConversion.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/scala/com/negrisoli/mathematics/geometry/PointOnRetangle.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/scala/com/negrisoli/algorithms/implementation/BiggerIsGreaterTest.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/scala/com/negrisoli/algorithms/implementation/TheGridSearchTest.scala" beforeDir="false" />
-    </list>
+    <list default="true" id="a84a5577-2da5-4fea-adff-372a0f257732" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +11,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/CountingValleys.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/ArrayLeftRotation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -88,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/CountingValleys.kt" />
+        <option value="$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/ArrayLeftRotation.kt" />
       </list>
     </option>
   </component>
@@ -108,6 +72,17 @@
             <path>
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +110,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt">
+    <configuration name="com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.raphaelnegrisoli.hackerrank.CountingValleysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin" />
       <option name="VM_PARAMETERS" />
@@ -151,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.raphaelnegrisoli.hackerrank.ArrayLeftRotationKt" />
         <item itemvalue="Kotlin.com.raphaelnegrisoli.hackerrank.CountingValleysKt" />
       </list>
     </recent_temporary>
@@ -162,12 +151,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547470121305</updated>
-      <workItem from="1547470124748" duration="1306000" />
+      <workItem from="1547470124748" duration="5450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1306000" />
+    <option name="totallyTimeSpent" value="5450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1024" extended-state="6" />
@@ -212,7 +201,17 @@
     <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/CountingValleys.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphaelnegrisoli/hackerrank/ArrayLeftRotation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
