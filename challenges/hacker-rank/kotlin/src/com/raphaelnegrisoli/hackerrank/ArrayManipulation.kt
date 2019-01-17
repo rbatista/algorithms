@@ -29,6 +29,7 @@ fun main(args: Array<String>) {
         tree[begin] = v1
         tree[end + 1] = v2
 
+        // TODO optimize this
         tree.subMap(begin + 1, end + 1).replaceAll { _, v -> v + value }
 
     }
