@@ -2,7 +2,7 @@ package com.raphaelnegrisoli.hackerrank
 
 import java.util.*
 
-inline fun String.sort(): String {
+fun String.sort(): String {
 
     val charArray = this.toCharArray()
     Arrays.sort(charArray)
