@@ -1,57 +1,67 @@
 package com.raphaelnegrisoli.hackerrank
 
-import java.util.*
-import kotlin.collections.HashMap
+import java.math.BigInteger
 
-fun countTriplets(arr: List<Long>, ratio: Long): Long {
 
-    val counts = hashMapOf<Long, MutableList<Int>>()
-    for ((index, value) in arr.withIndex()) {
+fun countTriplets(arr: List<Long>, ratio: Long): BigInteger {
 
-        if (!counts.contains(value)) {
+    val singlets = mutableMapOf<Long, BigInteger>()
+    val doublets = mutableMapOf<Pair<Long, Long>, BigInteger>()
 
-            counts[value] = ArrayList()
+    var triplets = BigInteger.ZERO
+    for (i in arr) {
+
+        println("i=$i")
+
+        val previous = i / ratio
+        val previousDoublet = (previous / ratio) to previous
+        println(previousDoublet)
+        if ((doublets[previousDoublet] ?: BigInteger.ZERO) > BigInteger.ZERO) {
+
+            val value = doublets[previousDoublet]!!
+            println("plus ${value} to triplet (${previousDoublet.first}, ${previousDoublet.second}, $i) ")
+            triplets += value
         }
 
-        counts[value]!!.add(index)
+        val previousValue = singlets[previous] ?: BigInteger.ZERO
+        if (previousValue > BigInteger.ZERO) {
+
+            val doublet = previous to i
+            val value = (doublets[doublet] ?: BigInteger.ZERO) + previousValue
+            println("Update doublet $doublet = $value")
+            doublets[doublet] = value
+        }
+
+        val value = (singlets[i] ?: BigInteger.ZERO) + BigInteger.ONE
+        println("Update singlet $i = $value")
+        singlets[i] = value
+
+        println(singlets)
+        println(doublets)
+        println()
     }
 
-    var result = 0L
-    for ((index, value) in arr.withIndex()) {
+    println(triplets)
 
-        val value2 = value * ratio
-        val value3 = value * ratio * ratio
-
-        if (!counts.contains(value2) || !counts.contains(value3)) continue
-
-        // DOES NOT GUARANTEE i < j < k
-        val count2 = count(counts[value2]!!, index)
-        val count3 = count(counts[value3]!!, index)
-
-        result += count2 * count3
-    }
-
-    return result
-}
-
-private fun count(
-    counts: MutableList<Int>,
-    index: Int
-): Int {
-    var valueIndexCount = Collections.binarySearch(counts, index)
-    if (valueIndexCount < 0) valueIndexCount = (valueIndexCount + 1) * -1
-    return counts.subList(valueIndexCount, counts.size).size
+    return triplets
 }
 
 fun main(args: Array<String>) {
 
-    val (_, ratio) = readLine().orEmpty().trim()
-        .split(" ")
-        .map { it.toLong() }
-    val arr = readLine().orEmpty().trim()
-        .split(" ")
-        .map { it.toLong() }
+//    val (_, ratio) = readLine().orEmpty().trim()
+//        .split(" ")
+//        .map { it.toLong() }
+//    val arr = readLine().orEmpty().trim()
+//        .split(" ")
+//        .map { it.toLong() }
 
-    val result = countTriplets(arr, ratio)
-    println(result)
+    for (i in listOf(Triple(listOf<Long>(1, 2, 1, 2, 4), 2L, 3),
+        Triple(listOf<Long>(1, 2, 4, 1, 2), 2L, 1),
+        Triple(listOf<Long>(1, 1, 1), 1L, 1))) {
+
+        println(countTriplets(i.first, i.second).toInt() == i.third)
+    }
+    //val result = countTriplets(arr, ratio)
+//    val result = countTriplets(arr, ratio)
+    //println(result)
 }
