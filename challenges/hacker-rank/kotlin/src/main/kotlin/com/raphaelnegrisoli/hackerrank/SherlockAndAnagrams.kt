@@ -1,3 +1,6 @@
+/**
+ * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
+ */
 package com.raphaelnegrisoli.hackerrank
 
 import java.util.*
