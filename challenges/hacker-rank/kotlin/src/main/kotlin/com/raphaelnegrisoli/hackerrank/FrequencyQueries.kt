@@ -1,3 +1,6 @@
+/**
+ * https://www.hackerrank.com/challenges/frequency-queries/problem
+ */
 package com.raphaelnegrisoli.hackerrank
 
 import java.io.BufferedReader
