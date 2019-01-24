@@ -1,20 +1,19 @@
 package com.raphaelnegrisoli.hackerrank
 
 import java.io.BufferedReader
-import java.io.BufferedWriter
-import java.io.FileWriter
 import java.io.InputStreamReader
+import java.lang.StringBuilder
 
 fun main(args: Array<String>) {
 
     val reader = BufferedReader(InputStreamReader(System.`in`))
-    val writer = BufferedWriter(FileWriter(System.getenv("OUTPUT_PATH")))
 
     val q = reader.readLine()!!.trim().toInt()
 
     val frequency : MutableMap<Int, Int> = HashMap(1000000)
     val dataByOccurrence : MutableMap<Int, Int> = HashMap(1000000)
 
+    val builder = StringBuilder()
     for (i in 0 until q) {
 
         val (op, data) = reader.readLine()!!.trim().split(" ").map { it.toInt() }
@@ -41,11 +40,10 @@ fun main(args: Array<String>) {
             3 -> {
 
                 val r = if ((dataByOccurrence[data] ?: 0) > 0) 1 else 0
-                writer.appendln(""+r)
+                builder.append(r).append("\n")
             }
         }
     }
 
-    writer.flush()
-
+    println(builder.toString())
 }
