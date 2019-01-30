@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/mark-and-toys/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.sorting
 
 fun main(args: Array<String>) {
 

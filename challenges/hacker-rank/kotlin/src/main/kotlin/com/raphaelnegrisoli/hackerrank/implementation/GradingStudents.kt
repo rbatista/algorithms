@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/grading/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.implementation
 
 import java.util.*
 

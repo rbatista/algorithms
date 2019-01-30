@@ -3,7 +3,7 @@
  *
  * Solution in 3 * n
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.hashmaps
 
 fun main(args: Array<String>) {
 

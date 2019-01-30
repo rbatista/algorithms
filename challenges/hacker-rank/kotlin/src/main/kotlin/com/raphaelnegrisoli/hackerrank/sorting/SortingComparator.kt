@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.sorting
 
 data class Player(val name: String, val score: Int)
 

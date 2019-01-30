@@ -1,4 +1,4 @@
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.strings
 
 
 fun main(args: Array<String>) {

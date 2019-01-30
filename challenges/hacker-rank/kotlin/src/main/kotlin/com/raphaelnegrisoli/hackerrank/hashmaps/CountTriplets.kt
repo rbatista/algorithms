@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/count-triplets-1/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.hashmaps
 
 import java.math.BigInteger
 

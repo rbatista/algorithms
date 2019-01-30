@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/frequency-queries/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.hashmaps
 
 import java.io.BufferedReader
 import java.io.InputStreamReader

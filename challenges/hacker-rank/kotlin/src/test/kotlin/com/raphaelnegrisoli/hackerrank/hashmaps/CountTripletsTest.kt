@@ -1,4 +1,4 @@
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.hashmaps
 
 import org.junit.Test
 import java.math.BigInteger

@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/mini-max-sum/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.warmup
 
 import java.util.*
 

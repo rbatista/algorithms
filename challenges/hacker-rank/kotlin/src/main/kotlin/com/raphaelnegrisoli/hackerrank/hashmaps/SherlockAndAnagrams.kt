@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.hashmaps
 
 import java.util.*
 

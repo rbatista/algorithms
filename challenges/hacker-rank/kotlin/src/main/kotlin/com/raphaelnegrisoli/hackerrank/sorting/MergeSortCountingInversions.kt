@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/ctci-merge-sort/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.sorting
 
 import java.lang.StringBuilder
 

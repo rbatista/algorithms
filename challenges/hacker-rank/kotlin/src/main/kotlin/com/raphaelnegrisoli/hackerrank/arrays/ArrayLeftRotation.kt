@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/ctci-array-left-rotation/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.arrays
 
 fun rotateLeftIndex(size: Int, rotations: Int, array: List<Int>) {
 

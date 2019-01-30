@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/crush/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.arrays
 
 import java.util.*
 

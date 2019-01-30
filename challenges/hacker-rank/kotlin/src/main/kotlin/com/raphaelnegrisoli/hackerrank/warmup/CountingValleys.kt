@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/counting-valleys/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.warmup
 
 
 fun main(args: Array<String>) {

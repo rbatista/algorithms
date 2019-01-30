@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/minimum-swaps-2/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.arrays
 
 import java.lang.IllegalArgumentException
 

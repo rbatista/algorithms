@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.sorting
 
 
 fun main(args: Array<String>) {

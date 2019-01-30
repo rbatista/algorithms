@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/balanced-brackets
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.stacksqueues
 
 val closePairs = mapOf(']' to '[',
     '}' to '{',
@@ -23,7 +23,10 @@ tailrec fun isBalanced(remainder: String, stack: List<Char> = listOf()): String 
 
     return when {
         remainder.isEmpty() && stack.isEmpty() -> "YES"
-        !remainder.isEmpty() && open.contains(remainder.first()) -> isBalanced(remainder.drop(1), listOf(remainder.first()) + stack)
+        !remainder.isEmpty() && open.contains(remainder.first()) -> isBalanced(
+            remainder.drop(1),
+            listOf(remainder.first()) + stack
+        )
         !stack.isEmpty() && !remainder.isEmpty() &&
                 closePairs.contains(remainder.first()) && stack.first() == closePairs[remainder.first()] ->
             isBalanced(remainder.drop(1), stack.drop(1))

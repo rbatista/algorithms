@@ -1,7 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/apple-and-orange/
  */
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.implementation
 
 fun main(args: Array<String>) {
 

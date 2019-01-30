@@ -1,4 +1,4 @@
-package com.raphaelnegrisoli.hackerrank
+package com.raphaelnegrisoli.hackerrank.strings
 
 import kotlin.math.absoluteValue
 
